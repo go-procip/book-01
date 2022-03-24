@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Kedgeree</title>
+    <link type="text/css" rel="stylesheet" href="css/book.css" />
+    <style>
+      a.fn {
+        -adapt-template: url(data:application/xml,%3Chtml%20xmlns=%22http://www.w3.org/1999/xhtml%22%20xmlns:s=%22http://www.pyroxy.com/ns/shadow%22%3E%3Chead%3E%3Cstyle%3E.footnote-content%7Bfloat:footnote%7D%3C/style%3E%3C/head%3E%3Cbody%3E%3Cs:template%20id=%22footnote%22%3E%3Cs:content/%3E%3Cs:include%20class=%22footnote-content%22/%3E%3C/s:template%3E%3C/body%3E%3C/html%3E#footnote);
+        text-decoration: none;
+        color: inherit;
+        vertical-align: baseline;
+        font-size: 70%;
+        position: relative;
+        top: -0.3em;
+      }
+      body {
+        background-color: white;
+      }
+      section[role=doc-footnote] .footnote-counter:after {
+        content: ". ";
+      }
+      section.fnlist {
+        display: none;
+      }
+      section:footnote-content {
+        display: block;
+        font-style: normal;
+        font-weight: normal;
+        text-decoration: none;
+      }
+      .table-of-contents a {
+        display: inline-flex;
+        width: 100%;
+        text-decoration: none;
+        color: currentColor;
+        break-inside: avoid;
+        align-items: baseline;
+      }
+      .table-of-contents a::before {
+        margin-left: 1px;
+        margin-right: 1px;
+        border-bottom: solid 1px lightgray;
+        content: "";
+        order: 1;
+        flex: auto;
+      }
+      .table-of-contents a::after {
+        text-align: right;
+        content: target-counter(attr(href, url), page);
+        align-self: flex-end;
+        flex: none;
+        order: 2;
+      }
+      @page {
+        size: 6in 9in;
+        @top-center {
+          content: env(doc-title);
+        }
+        @bottom-center {
+          content: counter(page);
+        }
+      }
+      @page :first {
+        @bottom-center {
+          content: normal;
+        }
+        @top-center {
+          content: normal;
+        }
+      }
+      figure img {
+        max-width: 100%;
+      }
+      .article-title {
+        page-break-before: right;
+      }
+      h1.part {
+        page-break-before: right;
+      }
+      .copyrightpage {
+        page-break-before: left;
+      }
+      .tocpage {
+        page-break-before: right;
+      }
+      .booktitle {
+        text-align: center;
+      }
+    </style>
+    <link type="text/css" rel="stylesheet" href="css/procip.css" />
+  </head>
+  <body class="user-contents">
+    <div class="titlepage frontmatter">
+      <h1 class="booktitle">Kedgeree</h1>
+    </div>
+    <div class="copyrightpage frontmatter">
+      <p>Last Updated: 2022-03-24</p>
+      <p>Created: 2022-03-24</p>
+      <p>Language: English</p>
+      <p>Created by: support</p>
+    </div>
+    <div class="tocpage frontmatter">
+      <nav role="doc-toc">
+        <ol>
+          <li>
+            <a href="#_1_0">
+              Intro
+            </a>
+            <ol>
+              <li>
+                <a href="#_1_0">
+                  About the Book
+                </a>
+                <ol>
+                  <li>
+                    <a href="#H1689939">
+                      Credits
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#H7235491">
+                      Intro
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#H8571447">
+                      Contribute
+                    </a>
+                  </li>
+                </ol>
+              </li>
+            </ol>
+          </li>
+          <li>
+            <a href="#_2_0">
+              Recipes
+            </a>
+            <ol>
+              <li>
+                <a href="#_2_0">
+                  Kedgeree Receipe Collection
+                </a>
+              </li>
+            </ol>
+          </li>
+          <li>
+            <a href="#_3_0">
+              Work in progress
+            </a>
+            <ol>
+              <li>
+                <a href="#_3_0">
+                  Notes
+                </a>
+              </li>
+            </ol>
+          </li>
+        </ol>
+      </nav>
+    </div>
+    <h1 class="part">Intro</h1>
+    <div class="article-part article-title" id="_1_0">About the Book</div>
+    <div class="article-part article-richtext article-body">
+      <h2 id="H1689939">Credits</h2>
+      <p>Editor: Simon Worthington, <a href="mailto:simon.worthington@tib.eu" title="mailto:simon.worthington@tib.eu">simon.worthington@tib.eu</a> </p>
+      <h2 id="H7235491">Intro</h2>
+      <h2 id="H8571447">Contribute</h2>
+    </div>
+    <section class="fnlist" role="doc-footnotes"></section>
+    <h1 class="part">Recipes</h1>
+    <div class="article-part article-title" id="_2_0">Kedgeree Receipe Collection</div>
+    <div class="article-part article-richtext article-body">
+      <p>Still searching<strong>...</strong></p>
+    </div>
+    <section class="fnlist" role="doc-footnotes"></section>
+    <h1 class="part">Work in progress</h1>
+    <div class="article-part article-title" id="_3_0">Notes</div>
+    <div class="article-part article-richtext article-body">
+      <p>Work in porgress.</p>
+    </div>
+    <section class="fnlist" role="doc-footnotes"></section>
+  </body>
+</html>

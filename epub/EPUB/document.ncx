@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ncx xmlns:ncx="http://www.daisy.org/z3986/2005/ncx/" xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="de">
+  <head>
+    <meta name="dtb:fidus" content="106" />
+  </head>
+  <docTitle>
+    <text>Kedgeree</text>
+  </docTitle>
+  <navMap>
+
+    <!-- 2.01 NCX: playOrder is optional -->
+    <navPoint id="t1">
+      <navLabel><text>Title page</text></navLabel>
+      <content src="titlepage.xhtml#title" />
+    </navPoint>
+    <navPoint id="t0-1">
+      <navLabel><text>Intro</text></navLabel>
+      <content src="document-1.xhtml" />
+      <navPoint id="t_1_0-1">
+        <navLabel><text>About the Book</text></navLabel>
+        <content src="document-1.xhtml#_1_0" />
+        <navPoint id="tH1689939-1">
+          <navLabel><text>Credits</text></navLabel>
+          <content src="document-1.xhtml#H1689939" />
+        </navPoint>
+        <navPoint id="tH7235491-1">
+          <navLabel><text>Intro</text></navLabel>
+          <content src="document-1.xhtml#H7235491" />
+        </navPoint>
+        <navPoint id="tH8571447-1">
+          <navLabel><text>Contribute</text></navLabel>
+          <content src="document-1.xhtml#H8571447" />
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="t0-2">
+      <navLabel><text>Recipes</text></navLabel>
+      <content src="document-2.xhtml" />
+      <navPoint id="t_2_0-2">
+        <navLabel><text>Kedgeree Receipe Collection</text></navLabel>
+        <content src="document-2.xhtml#_2_0" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="t0-3">
+      <navLabel><text>Work in progress</text></navLabel>
+      <content src="document-3.xhtml" />
+      <navPoint id="t_3_0-3">
+        <navLabel><text>Notes</text></navLabel>
+        <content src="document-3.xhtml#_3_0" />
+      </navPoint>
+      <navPoint id="t2">
+        <navLabel><text>Copyright</text></navLabel>
+        <content src="copyright.xhtml#copyright" />
+      </navPoint>
+    </navPoint>
+  </navMap>
+</ncx>
