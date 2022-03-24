@@ -39,6 +39,18 @@
       <navPoint id="t_2_0-2">
         <navLabel><text>Kedgeree Receipe Collection</text></navLabel>
         <content src="document-2.xhtml#_2_0" />
+        <navPoint id="tH8853466-2">
+          <navLabel><text>Kedgeree with poached egg</text></navLabel>
+          <content src="document-2.xhtml#H8853466" />
+        </navPoint>
+        <navPoint id="tH1167238-2">
+          <navLabel><text>Method</text></navLabel>
+          <content src="document-2.xhtml#H1167238" />
+        </navPoint>
+        <navPoint id="tH5790041-2">
+          <navLabel><text>Ingredients</text></navLabel>
+          <content src="document-2.xhtml#H5790041" />
+        </navPoint>
       </navPoint>
     </navPoint>
     <navPoint id="t0-3">

@@ -17,6 +17,7 @@
     <item id="t3" href="document-3.xhtml" media-type="application/xhtml+xml" />
     <item id="nav" href="document-nav.xhtml" properties="nav" media-type="application/xhtml+xml" />
     <item id="copyright" href="copyright.xhtml" media-type="application/xhtml+xml" />
+    <item id="img0" href="images/ea892ad3-f5cd-4942-879b-a7fb578387cd.jpg" media-type="image/jpeg" />
     <item id="font0" href="css/media/NotoSans-Italic.ttf" media-type="font/sfnt" />
     <item id="font1" href="css/media/NotoSans-Regular.ttf" media-type="font/sfnt" />
     <item id="font2" href="css/media/NotoSans-Medium.ttf" media-type="font/sfnt" />
