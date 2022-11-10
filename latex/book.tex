@@ -1,6 +1,5 @@
 \documentclass[11pt]{book}
 
-\usepackage{hyperref}
 \usepackage{caption}
                 
 \usepackage[backend=biber,hyperref=false,citestyle=authoryear,bibstyle=authoryear]{biblatex}
@@ -25,20 +24,21 @@
             
 \usepackage{tabu}
 \usepackage{docmute}
-\title{Kedgeree}
+\title{The Big Book of Kedgeree}
 \author{}
+
 \begin{document}
 \maketitle
 \def\title#1{\chapter{#1}}
 \tableofcontents
 
-\part{Intro}
+\part{Front Matter}
         \input{chapter-1}
         
-\part{Recipes}
+\part{Text}
         \input{chapter-2}
         
-\part{Work in progress}
+\part{Back Matter}
         \input{chapter-3}
         
 
