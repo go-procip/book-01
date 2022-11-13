@@ -2,6 +2,5 @@
   "__comment": "Set values to false if no link should be created.",
   "repoURL": "https://github.com/go-procip/book-01/",
   "repoBranch": "main",
-  "vivlioURL": "https://vivliostyle.vercel.app/",
-  "podURL": "https://doabooks.org/"
+  "vivlioURL": "https://vivliostyle.vercel.app/"
 }
