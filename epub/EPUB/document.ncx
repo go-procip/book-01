@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ncx xmlns:ncx="http://www.daisy.org/z3986/2005/ncx/" xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="de">
+<ncx xmlns:ncx="http://www.daisy.org/z3986/2005/ncx/" xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="en">
   <head>
-    <meta name="dtb:fidus" content="106" />
+    <meta name="dtb:fidus" content="107" />
   </head>
   <docTitle>
-    <text>Kedgeree</text>
+    <text>The Big Book of Kedgeree</text>
   </docTitle>
   <navMap>
 
@@ -14,51 +14,71 @@
       <content src="titlepage.xhtml#title" />
     </navPoint>
     <navPoint id="t0-1">
-      <navLabel><text>Intro</text></navLabel>
+      <navLabel><text>Front Matter</text></navLabel>
       <content src="document-1.xhtml" />
       <navPoint id="t_1_0-1">
-        <navLabel><text>About the Book</text></navLabel>
+        <navLabel><text>Demo</text></navLabel>
         <content src="document-1.xhtml#_1_0" />
-        <navPoint id="tH1689939-1">
-          <navLabel><text>Credits</text></navLabel>
-          <content src="document-1.xhtml#H1689939" />
+        <navPoint id="tH8043058-1">
+          <navLabel><text>Login</text></navLabel>
+          <content src="document-1.xhtml#H8043058" />
         </navPoint>
-        <navPoint id="tH7235491-1">
-          <navLabel><text>Intro</text></navLabel>
-          <content src="document-1.xhtml#H7235491" />
+        <navPoint id="tH2520848-1">
+          <navLabel><text>Create documents</text></navLabel>
+          <content src="document-1.xhtml#H2520848" />
         </navPoint>
-        <navPoint id="tH8571447-1">
-          <navLabel><text>Contribute</text></navLabel>
-          <content src="document-1.xhtml#H8571447" />
+        <navPoint id="tH6854650-1">
+          <navLabel><text>Share documents and invite participants</text></navLabel>
+          <content src="document-1.xhtml#H6854650" />
+        </navPoint>
+        <navPoint id="tH8600370-1">
+          <navLabel><text>Create book</text></navLabel>
+          <content src="document-1.xhtml#H8600370" />
+        </navPoint>
+        <navPoint id="tH8429539-1">
+          <navLabel><text>Create GitHub repo</text></navLabel>
+          <content src="document-1.xhtml#H8429539" />
+        </navPoint>
+        <navPoint id="tH3310274-1">
+          <navLabel><text>Output book</text></navLabel>
+          <content src="document-1.xhtml#H3310274" />
+        </navPoint>
+        <navPoint id="tH7280177-1">
+          <navLabel><text>Collaborative editing</text></navLabel>
+          <content src="document-1.xhtml#H7280177" />
+          <navPoint id="tH5057475-1">
+            <navLabel><text>Document markup features</text></navLabel>
+            <content src="document-1.xhtml#H5057475" />
+          </navPoint>
+          <navPoint id="tH3272242-1">
+            <navLabel><text>Document settings</text></navLabel>
+            <content src="document-1.xhtml#H3272242" />
+          </navPoint>
+          <navPoint id="tH9963771-1">
+            <navLabel><text>Comments and track changes</text></navLabel>
+            <content src="document-1.xhtml#H9963771" />
+          </navPoint>
         </navPoint>
       </navPoint>
     </navPoint>
     <navPoint id="t0-2">
-      <navLabel><text>Recipes</text></navLabel>
+      <navLabel><text>Text</text></navLabel>
       <content src="document-2.xhtml" />
       <navPoint id="t_2_0-2">
-        <navLabel><text>Kedgeree Receipe Collection</text></navLabel>
+        <navLabel><text>Notes</text></navLabel>
         <content src="document-2.xhtml#_2_0" />
-        <navPoint id="tH8853466-2">
-          <navLabel><text>Kedgeree with poached egg</text></navLabel>
-          <content src="document-2.xhtml#H8853466" />
-        </navPoint>
-        <navPoint id="tH1167238-2">
-          <navLabel><text>Method</text></navLabel>
-          <content src="document-2.xhtml#H1167238" />
-        </navPoint>
-        <navPoint id="tH5790041-2">
-          <navLabel><text>Ingredients</text></navLabel>
-          <content src="document-2.xhtml#H5790041" />
-        </navPoint>
       </navPoint>
     </navPoint>
     <navPoint id="t0-3">
-      <navLabel><text>Work in progress</text></navLabel>
+      <navLabel><text>Back Matter</text></navLabel>
       <content src="document-3.xhtml" />
       <navPoint id="t_3_0-3">
-        <navLabel><text>Notes</text></navLabel>
+        <navLabel><text>Recipes</text></navLabel>
         <content src="document-3.xhtml#_3_0" />
+        <navPoint id="tH7810746-3">
+          <navLabel><text>Rank the recipes</text></navLabel>
+          <content src="document-3.xhtml#H7810746" />
+        </navPoint>
       </navPoint>
       <navPoint id="t2">
         <navLabel><text>Copyright</text></navLabel>

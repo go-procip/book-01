@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="fidus" xml:lang="de-DE" prefix="cc: http://creativecommons.org/ns#">
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="fidus" xml:lang="en-US" prefix="cc: http://creativecommons.org/ns#">
   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <dc:identifier id="fidus">106</dc:identifier>
-    <dc:title>Kedgeree</dc:title>
+    <dc:identifier id="fidus">107</dc:identifier>
+    <dc:title>The Big Book of Kedgeree</dc:title>
     <dc:creator>
       support
     </dc:creator>
-    <dc:language>de-DE</dc:language>
-    <meta property="dcterms:modified">2022-03-24T18:26:57Z</meta>
-    <dc:date>2022-03-24</dc:date>
+    <dc:language>en-US</dc:language>
+    <meta property="dcterms:modified">2022-08-27T15:56:27Z</meta>
+    <dc:date>2022-08-27</dc:date>
   </metadata>
   <manifest>
     <item id="titlepage" href="titlepage.xhtml" media-type="application/xhtml+xml" />
